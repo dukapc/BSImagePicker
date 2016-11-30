@@ -36,12 +36,12 @@ open class BSImagePickerViewController : UINavigationController {
     /**
      Done button.
      */
-    open var doneButton: UIBarButtonItem = UIBarButtonItem(barButtonSystemItem: .done, target: nil, action: nil)
+    open var doneButton: UIBarButtonItem = UIBarButtonItem(title: "Færdig", style: .done, target: nil, action: nil)
     
     /**
      Cancel button
      */
-    open var cancelButton: UIBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel, target: nil, action: nil)
+    open var cancelButton: UIBarButtonItem = UIBarButtonItem(title: "Annuller", style: .plain, target: nil, action: nil)
     
     /**
      Default selections
